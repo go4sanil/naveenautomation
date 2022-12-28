@@ -18,7 +18,7 @@ public class AccountLogoutTest extends TestBase {
     }
 
     @Test
-    public void verifyLogin() {
+    public void verifyLogout() {
 
         var myAccountPage = accountLogin.login("name1@gmail.com", "Password1");
 
