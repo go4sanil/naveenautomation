@@ -18,7 +18,7 @@ public class NewsletterSubscribtionTest extends TestBase {
     }
 
     @Test
-    public void VerifyUserIsAbleToSignUpSuccessFully() {
+    public void VerifyUserIsAbleToSubscribeNewsLetterSuccessFully() {
 
         var myAccount = accountLogin.login("test@testemail.com", "test@testemail.com");
 
