@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="5">
+
+	<listeners>
+		<listener class-name="com.naveenautomation.Listeners.CustomListener" />
+		<listener class-name="com.naveenautomation.Reports.ExtendReportListener" />
+		<listener class-name="com.naveenautomation.Utils.TransformerForRetry" />
+
+	</listeners>
+
+
+	<test thread-count="5" name="Test" enabled="false">
+		<classes>
+			<class name="com.naveenautomation.tests.AccountLogoutTest" />
+			<class name="com.naveenautomation.tests.AccountCreatedTest" />
+			<class name="com.naveenautomation.tests.AccountLoginTest" />
+			<class name="com.naveenautomation.tests.ChangePhoneNumberTest" />
+			<class name="com.naveenautomation.tests.NewsletterSubscribtionTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Test2" enabled="true">
+		<classes>
+			<class name="com.naveenautomation.tests.MyAccountInformationTest" />
+	 
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+</suite> <!-- Suite -->

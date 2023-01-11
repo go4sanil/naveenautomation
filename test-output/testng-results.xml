@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-11T18:36:21 EST" name="Suite" finished-at="2023-01-11T18:37:33 EST" duration-ms="71518">
+    <groups>
+    </groups>
+    <test started-at="2023-01-11T18:36:21 EST" name="Test2" finished-at="2023-01-11T18:37:33 EST" duration-ms="71518">
+      <class name="com.naveenautomation.tests.MyAccountInformationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:36:23 EST" name="setUp" finished-at="2023-01-11T18:36:27 EST" duration-ms="4518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyUsersAreAbleToLoginSuccessFully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:36:27 EST" name="VerifyUsersAreAbleToLoginSuccessFully" data-provider="LoginDataProvider" finished-at="2023-01-11T18:36:32 EST" duration-ms="4515" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iron.man@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tony1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Stark]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iron.man@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1123456780]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FirstName doesnot match expected [Tony1] but found [Tony]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FirstName doesnot match expected [Tony1] but found [Tony]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.naveenautomation.tests.MyAccountInformationTest.VerifyUsersAreAbleToLoginSuccessFully(MyAccountInformationTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsersAreAbleToLoginSuccessFully -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:36:32 EST" name="teardown" finished-at="2023-01-11T18:36:32 EST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:36:32 EST" name="setUp" finished-at="2023-01-11T18:36:38 EST" duration-ms="5960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyUsersAreAbleToLoginSuccessFully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:36:38 EST" name="VerifyUsersAreAbleToLoginSuccessFully" data-provider="LoginDataProvider" finished-at="2023-01-11T18:36:40 EST" duration-ms="2160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harinder21@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Harinder]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kaur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Harinder21@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[780298456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsersAreAbleToLoginSuccessFully -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:36:40 EST" name="teardown" finished-at="2023-01-11T18:36:42 EST" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:36:42 EST" name="setUp" finished-at="2023-01-11T18:36:50 EST" duration-ms="7926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyUsersAreAbleToLoginSuccessFully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:36:50 EST" name="VerifyUsersAreAbleToLoginSuccessFully" data-provider="LoginDataProvider" finished-at="2023-01-11T18:36:57 EST" duration-ms="6870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Navjot.rehal12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Navjot13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Navjot]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Navjot.rehal12@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4372174449]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsersAreAbleToLoginSuccessFully -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:36:57 EST" name="teardown" finished-at="2023-01-11T18:36:59 EST" duration-ms="2471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:36:59 EST" name="setUp" finished-at="2023-01-11T18:37:07 EST" duration-ms="7781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyUsersAreAbleToLoginSuccessFully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:37:07 EST" name="VerifyUsersAreAbleToLoginSuccessFully" data-provider="LoginDataProvider" finished-at="2023-01-11T18:37:12 EST" duration-ms="5292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sg1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sahib]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sg1@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5146217769]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsersAreAbleToLoginSuccessFully -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:37:12 EST" name="teardown" finished-at="2023-01-11T18:37:13 EST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:37:13 EST" name="setUp" finished-at="2023-01-11T18:37:26 EST" duration-ms="13439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyUsersAreAbleToLoginSuccessFully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:37:26 EST" name="VerifyUsersAreAbleToLoginSuccessFully" data-provider="LoginDataProvider" finished-at="2023-01-11T18:37:32 EST" duration-ms="5360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[neethu123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password@01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Neethu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[neethu123@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsersAreAbleToLoginSuccessFully -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.naveenautomation.tests.MyAccountInformationTest@402c4085]" started-at="2023-01-11T18:37:32 EST" name="teardown" finished-at="2023-01-11T18:37:33 EST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.naveenautomation.tests.MyAccountInformationTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
